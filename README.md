@@ -65,12 +65,12 @@ gameObject.SetOpacity(0.2f, 0.8f);
 ```
 #### Transform Transitions
 ```c#
-// Tween position, relative to current localPosition
-gameObject.SetRelativePosition(new Vector3(0.0f, 1.0f, 0.0f), 0.8f);
+// Tween position to an absolute position in world space
+gameObject.SetPosition(new Vector3(9.0f, 9.0f, 9.0f), 0.8f);
 ```
 ```c#
-// Tween position, to an absolute position in world space
-gameObject.SetAbsolutePosition(new Vector3(9.0f, 9.0f, 9.0f), 0.8f);
+// Tween position, relative to current localPosition
+gameObject.SetRelativePosition(new Vector3(0.0f, 1.0f, 0.0f), 0.8f);
 ```
 ```c#
 // Tween to rotation
