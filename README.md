@@ -80,11 +80,17 @@ gameObject.SetRotation(new Vector3(9.0f, 9.0f, 9.0f), 0.8f, Easing.Cubic);
 ### States
 
 Crayon also provides Editor components that make it easy to define common states.
-![alt text](https://raw.githubusercontent.com/afauch/SSUI-Homework-5/master/mockup-1.png)
+![Unity Editor Component](https://raw.githubusercontent.com/afauch/SSUI-Homework-5/master/mockup-1.png)
 
 ```c#
-private void OnFocus() { // (Your interaction method)
+private void OnFocus() { // (Your own interaction method)
   // Switch to hover state
   gameObject.SetState(hover);
+}
+```
+```c#
+private void OnLightsDown() { // (Your own interaction method)
+  // Switch to a custom state
+  gameObject.SetState(LightsDown);
 }
 ```
