@@ -14,14 +14,15 @@ Crayon makes it easier to set states and transitions for the following propertie
 Crayon contains several extension methods for the GameObject class, so you don't need to constantly call the Crayon namespace.
 
 ### Fade In/Out
+It doesn't matter if your gameObject is text, sprite, or mesh...
+Crayon will figure that out for you. Fades and transitions are applied to all children automatically.
 ```c#
-// Fade in a GameObject
-// It doesn't matter if it's text, sprite, or mesh
-gameObject.FadeIn(0.8, Easing.Linear);
+// Fade In
+gameObject.FadeIn(0.8);
 ```
 ```c#
-// Fade in a GameObject
-gameObject.FadeIn(0.8);
+// Fade with easing
+gameObject.FadeIn(0.8, Easing, Linear);
 ```
 ```c#
 // Instantiate a new GameObject and fade it in
@@ -34,6 +35,10 @@ gameObject.FadeOut(0.8);
 ```c#
 // Fade Out and Destroy
 gameObject.FadeOut(0.8, true);
+```
+```c#
+// Fade to a custom Opacity
+gameObject.FadeTo();
 ```
 
 ### States
