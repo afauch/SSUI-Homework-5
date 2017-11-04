@@ -82,9 +82,8 @@ gameObject.SetRotation(new Vector3(9.0f, 9.0f, 9.0f), 0.8f, Easing.Cubic);
 Crayon also provides Editor components that make it easy to switch between states.
 
 ```c#
-// Your interaction method
-private void OnFocus() {
-  // Crayon's state switcher
+private void OnFocus() { // (Your interaction method)
+  // Switch to hover state
   gameObject.SetState(hover);
 }
 ```
