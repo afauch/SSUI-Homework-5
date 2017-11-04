@@ -41,7 +41,7 @@ gameObject.FadeOut(0.8f, true);
 ```
 
 ### Transitions
-Crayon gives you really simple functions for tweening common properties like color, position, rotation, size, and opacity.
+Crayon gives you simple functions for tweening common properties like color, position, rotation, size, and opacity.
 
 #### Color Transitions
 ```c#
