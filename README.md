@@ -50,7 +50,7 @@ gameObject.SetColor(red);
 ```
 ```c#
 // Tween to red over 800ms
-gameObject.SetColor(newColor, 0.8f);
+gameObject.SetColor(red, 0.8f);
 ```
 ```c#
 // Tween to hex color -
