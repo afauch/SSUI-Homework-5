@@ -22,7 +22,7 @@ gameObject.FadeIn(0.8);
 ```
 ```c#
 // Fade with easing
-gameObject.FadeIn(0.8, Easing, Linear);
+gameObject.FadeIn(0.8, Easing.Linear);
 ```
 ```c#
 // Instantiate a new GameObject and fade it in
