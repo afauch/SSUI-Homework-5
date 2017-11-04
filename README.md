@@ -7,7 +7,7 @@ Crayon makes it easier to set states and transitions for the following propertie
 + Color
 + Position
 + Rotation
-+ Scale
++ Size
 
 ## Usage
 
