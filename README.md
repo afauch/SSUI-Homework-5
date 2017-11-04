@@ -17,7 +17,7 @@ using Crayon;
 Crayon contains several extension methods for the GameObject class, so you don't need to constantly call the Crayon namespace.
 
 ### Fade In/Out
-Unity can make opacity a pain, but Crayon makes it easy. It doesn't matter if your gameObject is text, sprite, or mesh...
+Complex shaders can make opacity a pain, but Crayon makes it easy. It doesn't matter if your gameObject is text, sprite, or mesh...
 Crayon will figure that out for you. Fades are applied to all children automatically, so you don't have to worry about looping over nested child objects.
 ```c#
 // Fade in over 800ms
