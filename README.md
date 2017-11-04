@@ -93,6 +93,6 @@ private void OnFocus() { // (Your own interaction method)
 ```c#
 private void OnLightsDown() { // (Your own interaction method)
   // Switch to a custom state
-  gameObject.SetState(LightsDown);
+  gameObject.SetState("LightsDown");
 }
 ```
