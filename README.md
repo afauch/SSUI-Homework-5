@@ -84,7 +84,7 @@ Inspector > Add Component > UI States
 ```
 ![Unity Editor Component](https://raw.githubusercontent.com/afauch/SSUI-Homework-5/master/mockup-1.png)
 
-#### Switching to a normal Crayon state
+#### Switching to a regular Crayon state
 ```c#
 // (Your own interaction method)
 private void OnFocus() {
