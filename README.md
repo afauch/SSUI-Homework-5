@@ -61,7 +61,7 @@ gameObject.SetColor("#FF0000", 0.8f);
 ```
 #### Opacity Transitions
 ```c#
-// Tween to opacity
+// Tween to 20% opacity over 800ms
 gameObject.SetOpacity(0.2f, 0.8f);
 ```
 #### Transform Transitions
