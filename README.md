@@ -44,14 +44,14 @@ gameObject.FadeTo(0.2f, 0.8f);
 ### Transitions
 Crayon gives you really simple functions for tweening common properties like position, rotation, size, and color.
 ```c#
-// Tween to color
-Color32 newColor = new Color32(255, 0, 0, 255);
-gameObject.TransitionToColor(newColor, );
+// Tween to red over 800ms
+Color32 red = new Color32(255, 0, 0, 255);
+gameObject.TransitionToColor(newColor, 0.8f);
 ```
 ```c#
 // Tween to hex color -
 // Crayon will automatically convert to RGBA
-gameObject.TransitionToColor('#FF0000');
+gameObject.TransitionToColor("#FF0000", 0.8f);
 ```
 ```c#
 // Tween position, relative to current localPosition
