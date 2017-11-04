@@ -1,8 +1,8 @@
 # Crayon
 
-Crayon is a lightweight, 3D UI toolkit for Unity. It was made for 3D UI designers who prefer working with GameObjects and TextMeshes over the 2D-oriented Unity GUI Canvas system.
+Crayon is a lightweight, 3D UI prototyping toolkit for Unity. It was made for 3D UI designers who prefer working with GameObjects and TextMeshes over the 2D-oriented Unity GUI Canvas system.
 
-Crayon makes it easier to set states and transitions for the following properties:
+Crayon makes it easier to set states and transitions for the following properties on any GameObject:
 + Opacity
 + Color
 + Position
