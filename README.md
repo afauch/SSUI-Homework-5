@@ -36,34 +36,34 @@ gameObject.FadeOut(0.8f);
 // Fade Out and Destroy
 gameObject.FadeOut(0.8f, true);
 ```
-```c#
-// Fade to a custom opacity (20%)
-gameObject.FadeTo(0.2f, 0.8f);
-```
 
 ### Transitions
-Crayon gives you really simple functions for tweening common properties like position, rotation, size, and color.
+Crayon gives you really simple functions for tweening common properties like color, position, rotation, size, and opacity.
 ```c#
 // Tween to red over 800ms
 Color32 red = new Color32(255, 0, 0, 255);
-gameObject.TransitionToColor(newColor, 0.8f);
+gameObject.TransitionColor(newColor, 0.8f);
 ```
 ```c#
 // Tween to hex color -
 // Crayon will automatically convert to RGBA
-gameObject.TransitionToColor("#FF0000", 0.8f);
+gameObject.TransitionColor("#FF0000", 0.8f);
 ```
 ```c#
 // Tween position, relative to current localPosition
-gameObject.TransitionToRelativePosition(new Vector3(0.0f, 1.0f, 0.0f));
+gameObject.TransitionRelativePosition(new Vector3(0.0f, 1.0f, 0.0f), 0.8f);
 ```
 ```c#
 // Tween position, to an absolute position in world space
-gameObject.TransitionToAbsolutePosition(new Vector3(9.0f, 9.0f, 9.0f));
+gameObject.TransitionAbsolutePosition(new Vector3(9.0f, 9.0f, 9.0f), 0.8f);
 ```
 ```c#
-// Tween to rotation, based on current rotation
-gameObject.TransitionToPositionAbsolute(new Vector3(9.0f, 9.0f, 9.0f));
+// Tween to rotation
+gameObject.TransitionRotation(new Vector3(9.0f, 9.0f, 9.0f), 0.8f, Easing.Cubic);
+```
+```c#
+// Tween to opacity
+gameObject.TransitionOpacity(0.2f, 0.8f);
 ```
 
 ### States
