@@ -45,7 +45,12 @@ gameObject.FadeTo(0.2f, 0.8f);
 Crayon gives you really simple functions for tweening common properties like position, rotation, size, and color.
 ```c#
 // Tween to color
-gameObject.ToColor();
+Color32 newColor = new Color32(255, 0, 0, 255);
+gameObject.ToColor(newColor);
+```
+```c#
+/// Tween to hex color
+gameObject.ToColor('#FF0000');
 ```
 ```c#
 // Tween position, relative to current localPosition
