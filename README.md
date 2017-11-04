@@ -80,7 +80,7 @@ gameObject.SetRotation(new Vector3(9.0f, 9.0f, 9.0f), 0.8f, Easing.Cubic);
 ### States
 
 Crayon also provides Editor components that make it easy to define common states.
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/afauch/SSUI-Homework-5/master/mockup-1.png)
 
 ```c#
 private void OnFocus() { // (Your interaction method)
