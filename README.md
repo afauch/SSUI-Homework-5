@@ -43,7 +43,7 @@ gameObject.FadeOut(0.8f, true);
 
 ### Transitions
 Crayon gives you really simple functions for tweening common properties like color, position, rotation, size, and opacity.
-```
+```c#
 // Set color without tweening
 Color32 red = new Color32(255, 0, 0, 255);
 gameObject.SetColor(red);
