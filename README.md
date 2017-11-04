@@ -86,14 +86,16 @@ Inspector > Add Component > UI States
 
 #### Switching to a normal Crayon state
 ```c#
-private void OnFocus() { // (Your own interaction method)
+// (Your own interaction method)
+private void OnFocus() {
   // Switch to hover state
   gameObject.SetState(hover);
 }
 ```
 #### Switching to a custom Crayon state
 ```c#
-private void OnLightsDown() { // (Your own interaction method)
+// (Your own interaction method)
+private void OnLightsDown() {
   // Switch to a custom state
   gameObject.SetState("LightsDown");
 }
