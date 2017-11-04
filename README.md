@@ -78,7 +78,7 @@ gameObject.SetRotation(new Vector3(9.0f, 9.0f, 9.0f), 0.8f, Easing.Cubic);
 ```
 
 ### States
-Crayon also provides Editor components that make it easy to quickly define GameObject properties common states like hover, selected, and default.
+Crayon also provides Editor components that make it easy to quickly define GameObject properties for common states like `hover`, `selected`, and `default`. The component also lets you define custom states that might be relevant to your own app.
 ```
 Inspector > Add Component > UI States
 ```
