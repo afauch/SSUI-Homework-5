@@ -14,8 +14,8 @@ Crayon makes it easier to set states and transitions for the following propertie
 Crayon contains several extension methods for the GameObject class, so you don't need to constantly call the Crayon namespace.
 
 ### Fade In/Out
-It doesn't matter if your gameObject is text, sprite, or mesh...
-Crayon will figure that out for you. Fades and transitions are applied to all children automatically.
+Unity can make opacity a pain, but Crayon makes it easy. It doesn't matter if your gameObject is text, sprite, or mesh...
+Crayon will figure that out for you. Fades are applied to all children automatically.
 ```c#
 // Fade in over 800ms
 gameObject.FadeIn(0.8f);
@@ -39,6 +39,25 @@ gameObject.FadeOut(0.8f, true);
 ```c#
 // Fade to a custom opacity (20%)
 gameObject.FadeTo(0.2f, 0.8f);
+```
+
+### Tweens
+Crayon gives you really simple functions for tweening common properties like position, rotation, size, and color.
+```c#
+// Tween to color
+gameObject.ToColor();
+```
+```c#
+// Tween position, relative to current localPosition
+gameObject.ToPositionRelative(new Vector3(0.0f, 1.0f, 0.0f));
+```
+```c#
+// Tween position, to an absolute position in world space
+gameObject.ToPositionAbsolute(new Vector3(9.0f, 9.0f, 9.0f));
+```
+```c#
+// Tween to rotation, based on current rotation
+gameObject.ToPositionAbsolute(new Vector3(9.0f, 9.0f, 9.0f));
 ```
 
 ### States
