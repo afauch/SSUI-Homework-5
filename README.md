@@ -79,6 +79,9 @@ gameObject.SetRotation(new Vector3(9.0f, 9.0f, 9.0f), 0.8f, Easing.Cubic);
 
 ### States
 
+```
+Inspector > Add Component > UI States
+```
 Crayon also provides Editor components that make it easy to define common states.
 ![Unity Editor Component](https://raw.githubusercontent.com/afauch/SSUI-Homework-5/master/mockup-1.png)
 
