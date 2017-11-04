@@ -13,6 +13,7 @@ Crayon makes it easier to set states and transitions for the following propertie
 
 Crayon contains several extension methods for the GameObject class, so you don't need to constantly call the Crayon namespace.
 
+### Fade In/Out
 ```c#
 // Fade in a GameObject
 // It doesn't matter if it's text, sprite, or mesh
@@ -26,7 +27,16 @@ gameObject.FadeIn(0.8);
 // Instantiate a new GameObject and fade it in
 gameObject.FadeInNew(0.8);
 ```
+```c#
+// Fade Out
+gameObject.FadeOut(0.8);
+```
+```c#
+// Fade Out and Destroy
+gameObject.FadeOut(0.8, true);
+```
 
+### States
 ```c#
 // Your interaction method
 private void OnFocus() {
