@@ -17,7 +17,7 @@ Crayon contains several extension methods for the GameObject class, so you don't
 It doesn't matter if your gameObject is text, sprite, or mesh...
 Crayon will figure that out for you. Fades and transitions are applied to all children automatically.
 ```c#
-// Fade In
+// Fade in over 800ms
 gameObject.FadeIn(0.8f);
 ```
 ```c#
@@ -37,8 +37,8 @@ gameObject.FadeOut(0.8f);
 gameObject.FadeOut(0.8f, true);
 ```
 ```c#
-// Fade to a custom Opacity
-gameObject.FadeTo();
+// Fade to a custom opacity (20%)
+gameObject.FadeTo(0.2f, 0.8f);
 ```
 
 ### States
