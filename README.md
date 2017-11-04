@@ -79,7 +79,8 @@ gameObject.SetRotation(new Vector3(9.0f, 9.0f, 9.0f), 0.8f, Easing.Cubic);
 
 ### States
 
-Crayon also provides Editor components that make it easy to switch between states.
+Crayon also provides Editor components that make it easy to define common states.
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 ```c#
 private void OnFocus() { // (Your interaction method)
