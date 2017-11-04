@@ -11,11 +11,10 @@ Crayon makes it easier to set states and transitions for the following propertie
 
 ## Usage
 
-Crayon contains several extension methods for the GameObject class, so you don't need to constantly call the Crayon namespace.
-
 ```c#
 using Crayon;
 ```
+Crayon contains several extension methods for the GameObject class, so you don't need to constantly call the Crayon namespace.
 
 ### Fade In/Out
 Unity can make opacity a pain, but Crayon makes it easy. It doesn't matter if your gameObject is text, sprite, or mesh...
